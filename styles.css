@@ -1,0 +1,77 @@
+body{
+    background-image: url("imgs/rm314-adj-10.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment:fixed;
+    overflow: hidden;
+}
+.nav{
+    float: right;
+    z-index: 10;
+}
+.nav ul{
+    margin-top: 50px;
+    margin-right: 60px;
+    padding: 0;
+    overflow:hidden;
+   
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    }
+.nav a{
+    font-size:25px;
+    color: black;
+    text-decoration: none;   
+}
+
+
+.spaned{
+    color:black;
+    font-size: 53px;}
+.loginspan{
+    color: blue;
+    
+}
+
+#p1{
+    font-size: larger;
+}
+#p2{
+    margin-top: 0px;
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+    float: right;
+}
+@media only screen and (max-width:700px){
+    .nav{
+        float: right;
+    }
+    .nav ul{
+        width:100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+
+    }
+    .nav li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: smaller;
+        background: #aaa;
+        color: black;
+    }
+    .menu-icon{
+        display:block ;
+    }
+
+
+}
